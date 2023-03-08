@@ -41,3 +41,12 @@
 
 13. Insert in sorted linked list.
 - 13-insert_number.c - a function in C that inserts a number into a sorted singly linked list.
+
+14. Smile in the mirror.
+- 100-print_tebahpla.py - a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line..
+
+15. Remove at position.
+- 101-remove_char_at.py - a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+
+16. ByteCode -> Python #2.
+- 102-magic_calculation.py - the Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode.
