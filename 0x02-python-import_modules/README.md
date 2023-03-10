@@ -18,4 +18,14 @@
 05. Everything can be imported.
 - 5-variable_load.py - a program that imports the variable a from the file variable_load_5.py and prints its value.
 
+06. Build my own calculator!.
+- 100-my_calculator.py - a program that imports all functions from the file calculator_1.py and handles basic operations.
 
+07. Easy print.
+- 101-easy_print.py - a program that prints #pythoniscool, followed by a new line, in the standard output.
+
+08. ByteCode -> Python #3.
+- 102-magic_calculation.py - the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:.
+
+09. Fast alphabet.
+- 103-fast_alphabet.py -  a program that prints the alphabet in uppercase, followed by a new line.
