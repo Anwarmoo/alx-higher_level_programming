@@ -28,3 +28,17 @@
 06. Raise a message.
 - 6-raise_exception_msg.py - Write a function that raises a name exception with a message.
 	- Prototype: def raise_exception_msg(message=""):
+
+07. Safe integer print with error message.
+- 100-safe_print_integer_err.py - Write a function that prints an integer.
+	- Prototype: def safe_print_integer_err(value):
+
+08. Safe function.
+- 101-safe_function.py - Write a function that executes a function safely.
+	- Prototype: def safe_function(fct, *args):
+
+09. ByteCode -> Python #4.
+- 102-magic_calculation.py - Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:.
+
+10. CPython #2: PyFloatObject.
+- 103-python.c - Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
