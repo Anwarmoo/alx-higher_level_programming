@@ -42,3 +42,13 @@
 
 10. CPython #2: PyFloatObject.
 - 103-python.c - Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
+
+### Python lists:
+- Prototype: void print_python_list(PyObject *p);
+
+### Python bytes:
+- Prototype: void print_python_bytes(PyObject *p);
+
+### Python float:
+- Prototype: void print_python_float(PyObject *p);
+
