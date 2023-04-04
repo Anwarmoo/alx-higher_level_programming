@@ -226,5 +226,53 @@ a is b
 >>> id(a)
 ```
 
+29. #pythonic. [100-magic_string.py]
+- Write a function magic_string() that returns a string “BestSchool” n times the number of the iteration.
 
+30. Low memory cost. [101-locked_class.py]
+- Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
+
+31. int 1/3. [103-line1.txt, 103-line2.txt]
+- How many `int` objects are created by the execution of the first line in this script?
+- How many `int` objects are created by the execution of the second line in this script?
+```
+a = 1
+b = 1
+```
+
+32. int 2/3. [104-line1.txt, 104-line2.txt, 104-line3.txt, 104-line4.txt, 104-line5.txt]
+- How many `int` objects are created by the execution of the first line in this script?
+- How many `int` objects are created by the execution of the second line in this script?
+- After the execution of line 3, is the `int` object pointed to by `a` deleted?
+- After the execution of line 4, is the `int` object pointed to by `b` deleted?
+- How many `int` objects are created by the execution of the last line in this script?
+```
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+```
+
+33. int 3/3. [105-line1.txt]
+- Before the execution of line 2  (print("Love")) in this script, how many `int` objects have been created and are still in memory?
+```
+print("I")
+print("Love")
+print("Python")
+```
+
+34. Clear strings. [106-line1.txt, 106-line2.txt, 106-line3.txt, 106-line4.txt, 106-line5.txt]
+- How many `string` objects are created by the execution of the first line in this script?
+- How many `string` objects are created by the execution of the second line in this script?
+- After the execution of line 3, is the `string` object pointed to by `a` deleted?
+- After the execution of line 4, is the `string` object pointed to by `b` deleted?
+- How many `string` objects are created by the execution of the last line in this script?
+```
+a = "SCHL"
+b = "SCHL"
+del a
+del b
+c = "SCHL"
+```
 
