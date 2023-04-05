@@ -24,3 +24,15 @@
 05. Max integer - Unittest - [tests/6-max_integer_test.py].
 - Since the beginning you have been creating “Interactive tests”. For this exercise, you will add Unittests.
 	- In this task, you will write unittests for the function def max_integer(list=[]).
+
+06. Matrix multiplication - [100-matrix_mul.py, tests/100-matrix_mul.txt].
+- Write a function that multiplies 2 matrices:.
+	- Prototype: `def matrix_mul(m_a, m_b):`
+
+07. Lazy matrix multiplication - [101-lazy_matrix_mul.py, tests/101-lazy_matrix_mul.txt].
+- Write a function that multiplies 2 matrices by using the module `NumPy`
+ - Prototype: `def lazy_matrix_mul(m_a, m_b):`
+
+08. CPython #3: Python Strings - [102-python.c].
+- Create a function that prints Python strings.
+	- Prototype: `void print_python_string(PyObject *p);`
