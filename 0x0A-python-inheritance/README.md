@@ -67,5 +67,12 @@
 - the `area()` method must be implemented
 - `print()` should print, and `str()` should return, the square description: `[Square] <width>/<height>`
 
+12. My integer. [ 100-my_int.py ]
+- Write a class `MyInt` that inherits from `int`:
+	- `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
 
+13. Can I? [ 101-add_attribute.py ]
+- Write a function that adds a new attribute to an object if it’s possible:
+	- Raise a `TypeError` exception, with the message `can't add new attribute` if the object can’t have new attribute
+	- You are not allowed to use `try/except`
 
