@@ -1,3 +1,3 @@
 #!/bin/bash
-#Makes a request to 0.0.0.0:5000/catch_me to get it!
-curl -sLX PUT --data "user_id=98" --header "origin:You got me!" 0.0.0.0:5000/catch_me
+# Displays the body of the response of a curl POST request
+curl -sLX PUT -d "user_id=98" -H "Origin:You got me!" 0.0.0.0:5000/catch_me
